@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PWDKC8SC');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Forward - Billing</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWDKC8SC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <!-- Header Section -->
+    <header class="bg-white shadow-md py-4 px-6 md:px-12">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-gray-800">Fashion Forward</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-gray-700 hover:text-indigo-600 font-medium">Home</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-indigo-600 font-medium">Shop</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-indigo-600 font-medium">About</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-indigo-600 font-medium">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section - Billing Form -->
+    <main class="flex-grow container mx-auto p-6 md:p-12 flex items-center justify-center">
+        <div class="bg-white rounded-xl shadow-lg p-8 md:p-10 w-full max-w-lg">
+            <h2 class="text-3xl font-extrabold text-center text-gray-900 mb-8">Billing Information</h2>
+
+            <form class="space-y-6">
+                <div>
+                    <label for="fullName" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="John Doe" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="john.doe@example.com" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                </div>
+                <div>
+                    <label for="address" class="block text-sm font-medium text-gray-700 mb-1">Shipping Address</label>
+                    <textarea id="address" name="address" rows="3" placeholder="123 Main St, Anytown, USA" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required></textarea>
+                </div>
+                <div>
+                    <label for="paymentMethod" class="block text-sm font-medium text-gray-700 mb-1">Payment Method</label>
+                    <select id="paymentMethod" name="paymentMethod" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                        <option value="">Select a method</option>
+                        <option value="creditCard">Credit Card</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bankTransfer">Bank Transfer</option>
+                    </select>
+                </div>
+
+                <div class="pt-4">
+                    <a href="thankyou.html" class="block w-full bg-indigo-600 text-white py-3 px-4 rounded-lg text-center font-semibold hover:bg-indigo-700 transition duration-300 shadow-md">Confirm Purchase</a>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6 px-6 md:px-12 mt-12">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Fashion Forward. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
